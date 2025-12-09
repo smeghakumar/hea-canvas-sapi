@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_11c09a75_3b61_451b_b44c_5ef9de9a85a2_Output_Payload = Array<{|  graderId?: Number,   currentGrade?: String,   gradeMatchesCurrentSubmission?: Boolean,   previousGradedAt?: String,   previousGrade?: String,   currentGrader?: String,   grader?: String,   userName?: String,   assignmentId?: Number,   previousGrader?: String,   userId?: Number,   url?: String,   score?: Number,   submissionType?: String,   newGrade?: String,   workflowState?: String,   gradedAt?: String,   id?: Number,   newGrader?: String,   courseId?: Number,   assignmentName?: String,   currentGradedAt?: String,   newGradedAt?: String|} {"description": "Data type for Canvas Grade"}>
+

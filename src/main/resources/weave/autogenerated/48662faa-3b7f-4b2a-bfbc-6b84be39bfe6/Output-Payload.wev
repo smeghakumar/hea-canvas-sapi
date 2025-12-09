@@ -1,0 +1,16 @@
+%dw 2.0
+
+type auto_48662faa_3b7f_4b2a_bfbc_6b84be39bfe6_Output_Payload = Array<{|  submissionType?: Array<Any> {"description": "Submission Type",
+  "label": "Submission Type"}, 
+  workflowState?: String, 
+  isQuizAssignment?: Boolean, 
+  pointsPossible?: Number, 
+  description?: String, 
+  published?: Boolean, 
+  gradedSubmissionExist?: Boolean, 
+  category?: String, 
+  assignmentId?: Number, 
+  courseId?: Number, 
+  assignmentName?: String
+|} {"description": "Data type for Canvas Assignment"}>
+

@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_11c09a75_3b61_451b_b44c_5ef9de9a85a2_Output_Variables_canvasPath = Any
+

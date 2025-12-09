@@ -1,0 +1,27 @@
+%dw 2.0
+
+type auto_26d5410a_9dc7_4250_83c5_c8b65a67a754_Output_Attributes = {|
+  clientCertificate?: {|
+    publicKey?: {|  |}, 
+    "type"?: String, 
+    encoded?: Binary
+  |}, 
+  headers: {|
+    "X-CLIENT-ID": String, 
+    "X-CLIENT-SECRET": String, 
+    "X-CORRELATION-ID"?: String
+  |}, 
+  listenerPath: String, 
+  method: String, 
+  queryParams: {|  |}, 
+  queryString: String, 
+  relativePath: String, 
+  remoteAddress: String, 
+  requestPath: String, 
+  requestUri: String, 
+  scheme: String, 
+  uriParams: {| courseid: String |}, 
+  version: String, 
+  localAddress: String
+|}
+
